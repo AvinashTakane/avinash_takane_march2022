@@ -1,0 +1,249 @@
+Question 1:
+
+class prog1
+{
+	public static void main(String args[])
+	{
+
+		System.out.println("Hello");
+		System.out.println("Avinash S. Takane");		
+	}
+}
+
+//2.Write a Java program to print the sum of two numbers. 
+
+import java.util.Scanner;
+
+class prog2
+{
+	public static void main(String args[])
+	{
+
+		int x,y,result;
+		System.out.println("Enter first number : ");
+		Scanner sc = new Scanner(System.in);
+		Scanner sc1 = new Scanner(System.in);
+	    x=sc.nextInt();
+		System.out.println("Enter second number : ");
+		y=sc1.nextInt();
+		result=x+y;
+		System.out.println("Result : "+result);
+	}
+}
+
+/*
+D:\Cdac Kharghar Notes\Github Assignments\Assignment2>java prog2
+Enter first number :
+36
+Enter second number :
+74
+Result : 110
+***********************************/
+
+//3. Write a Java program to divide two numbers and print on the screen. 
+
+import java.util.Scanner;
+
+class prog3
+{
+	public static void main(String args[])
+	{
+
+		int x,y,result;
+		System.out.println("Enter first number : ");
+		Scanner sc = new Scanner(System.in);
+		Scanner sc1 = new Scanner(System.in);
+	    x=sc.nextInt();
+		System.out.println("Enter second number : ");
+		y=sc1.nextInt();
+		
+		result=x/y;
+		System.out.println("Result : "+result);
+	}
+}
+
+/*
+D:\Cdac Kharghar Notes\Github Assignments\Assignment2>java prog3
+Enter first number :
+50
+Enter second number :
+3
+Result : 16
+************************/
+
+//4. Write a Java program to print the result of the following operations.
+
+import java.util.Scanner;
+
+class prog4
+{
+	public static void main(String args[])
+	{
+
+		int a,b,c,d;
+		int e=2,f=3,g=5,h=6,i=8,j=9,k=15,l=20,m=55;
+		
+		a=i*h-g;
+		b=(m+j)%j;
+		c=l-f*g/i;
+		d=g+k/f*e-i%f;
+		
+	
+		System.out.println("Result : "+a+"\n"+b+"\n"+c+"\n"+d);	
+	}
+}
+
+/*********
+D:\Cdac Kharghar Notes\Github Assignments\Assignment2>java prog4
+Result : 43
+1
+19
+13
+************/
+
+//5. Write a Java program that takes two numbers as input and display the product of two numbers
+
+import java.util.Scanner;
+
+class prog5
+{
+	public static void main(String args[])
+	{
+
+		int x,y,result;
+		System.out.println("Enter first number : ");
+		Scanner sc = new Scanner(System.in);
+		Scanner sc1 = new Scanner(System.in);
+	    x=sc.nextInt();
+		System.out.println("Enter second number : ");
+		y=sc1.nextInt();
+		result=x*y;
+		System.out.println("Product of 2 numbers : "+result);
+	}
+}
+
+/*****************
+D:\Cdac Kharghar Notes\Github Assignments\Assignment2>java prog5
+Enter first number :
+25
+Enter second number :
+5
+Product of 2 numbers : 125
+********************************/
+
+//6. Write a Java program to print the sum (addition), multiply, subtract, divide and remainder of two numbers.
+
+import java.util.Scanner;
+
+class prog6
+{
+	public static void main(String args[])
+	{
+
+		int x,y,add,sub,mul,div,mod;
+		System.out.println("Enter first number : ");
+		Scanner sc = new Scanner(System.in);
+		Scanner sc1 = new Scanner(System.in);
+	    x=sc.nextInt();
+		System.out.println("Enter second number : ");
+		y=sc1.nextInt();
+		add=x+y;
+		sub=x-y;
+		mul=x*y;
+		div=x/y;
+		mod=x%y;
+		System.out.println("Result : \n"+"Addition : "+add+"\n"+"Substraction : "+sub+"\n"+"Multiplication : "+"\n"+mul+"\n"+"Dividation : "+div+"\n"+"Modulution : "+mod);
+	}
+}
+
+/**************
+D:\Cdac Kharghar Notes\Github Assignments\Assignment2>java prog6
+Enter first number :
+125
+Enter second number :
+24
+Result :
+Addition : 149
+Substraction : 101
+Multiplication :
+3000
+Dividation : 5
+Modulution : 5
+************************/
+
+//7. Write a Java program that takes a number as input and prints its multiplication table upto 10.
+
+import java.util.Scanner;
+
+class prog7
+{
+	public static void main(String args[])
+	{
+
+		int num,res=0;
+		System.out.println("Enter number : ");
+		Scanner sc = new Scanner(System.in);
+		num = sc.nextInt();
+		System.out.println("\n");
+		for(int i=1;i<=10;i++){
+	
+			res=num*i;
+			System.out.println(res);
+		}
+	}
+}
+
+/******************
+D:\Cdac Kharghar Notes\Github Assignments\Assignment2>java prog7
+Enter number :
+2
+
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+**************************/
+
+//9. Write a Java program to compute the specified expressions and print the output. 
+
+class prog9
+{
+	public static void main(String args[])
+	{
+	
+		double x=((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5));
+		
+		System.out.println("Result : "+x+"\n");
+	}
+}
+
+/*************
+D:\Cdac Kharghar Notes\Github Assignments\Assignment2>java prog9
+Result : 2.138888888888889
+
+************/
+
+//10. Write a Java program to compute a specified formula. 
+
+
+class prog10
+{
+	public static void main(String args[])
+	{
+	
+		double x=4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11));
+		
+		System.out.println("Result : "+x+"\n");
+	}
+}
+/*************
+D:\Cdac Kharghar Notes\Github Assignments\Assignment2>java prog10
+Result : 2.9760461760461765
+
+***************/
